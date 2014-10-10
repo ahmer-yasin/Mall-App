@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-header-bar class="bar bar-royal text-center ">
+        <h1 class="title">Favourite</h1>
+    </ion-header-bar>
+    <ion-content>
+        <div class="list" ng-repeat="cat in category">
+                <div class="item item-icon-right ">
+                    <i class="icon ion-ios7-heart-outline"></i>
+                   {{cat}}
+                </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="bar bar-royal">
+        <div class="button-bar">
+            <span class="button button-bar-inline"><span class="ion-home"></span> Home</span>
+            <span class="button button-bar-inline"> <span class="ion-heart"></span>Favourite</span>
+            <span class="button button-bar-inline"><span class="ion-star"></span> New</span>
+            <span class="button button-bar-inline"><span class="ion-search"></span>Search</span>
+        </div>
+    </ion-footer-bar>
+</ion-view>

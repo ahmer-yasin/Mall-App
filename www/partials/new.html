@@ -1,0 +1,20 @@
+<ion-view title="New List">
+    <!--<ion-header-bar class="bar bar-royal textCenter">
+        <h1 class="title">New</h1>
+    </ion-header-bar >-->
+    <ion-content>
+        <div class="list">
+            <div ng-repeat="img in image">
+                <div class="item item-avatar">
+                    <img ng-src="{{'img/'+img+'.jpg'}}"  ui-sref="brandInfo">
+                    <h2 class="text-center">Brand Name</h2>
+                    <span class="percnt">{{discount[2]}}</span>
+                    <span class="percnt">OFF</span>
+                    <p>Back off, man. I'm a scientist.</p>
+                </div>
+
+                ...
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

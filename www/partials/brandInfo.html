@@ -1,0 +1,30 @@
+<ion-view>
+    <ion-header-bar class="bar bar-royal textCenter" title="Brand Info">
+
+    </ion-header-bar>
+    <ion-content ng-controller="promotions">
+        <div class="list card">
+
+            <div class="item item-avatar">
+               <h2>Brand name</h2>
+                <p>{{date()}}</p>
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="img/b.jpg">
+                <h2>Product Detail :</h2>
+                <p>
+                    This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+                    the content is from a card-body consisting of an image and paragraph text. The footer
+                    consists of tabs, icons aligned left, within the card-footer.
+                </p>
+                <span class="percent">{{discount[0]}}</span><br/>
+                <span class="percent">OFF</span>
+
+                <div class="button button-positive" style="margin-left: 60%;">
+                   Avail
+                </div>
+            </div>
+</div>
+    </ion-content>
+</ion-view>
